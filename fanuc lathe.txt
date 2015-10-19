@@ -1,0 +1,42 @@
+basic commands:
+
+G
+  
+  G00  = pikaliike, fast move
+  G01  = suora liike, direct movement
+  G02  = ympyräkaari syöttöliike myötäpäivään, circle arc klockwise
+  G03  = ympyräkaari syöttöliike vastapäivään, circle arc counter-klockwise
+  G04  = viive, delay
+  
+  G20  = measures in inc system
+  G21  = measures in meter system
+  
+  G28  = reverenssipisteeseen paluu, return to reference point
+  
+  G40  =
+  G41  =
+  
+  G50  = absolute coordinates movement and setting maximun rpm
+  
+  G70  = finishing cycle
+  
+  G71  =  rouhintakierroksen alku ja määrittely, roughing cycle start and definition
+  
+    P = alkurivi, startline
+    Q = loppurivi, endline
+    U = x-aksel. viimeistelyvara, x-axis finishing reserve
+    W = z-aksel. viimeistelyvara, z-axis finishing reserve
+    D = lastunpaksuus sädemitta (mikro m), chip thickness from workpiece radius  
+    F = syöttö, feed mm/revolution 
+  
+M
+  
+  M03  = kara vastapäivään 
+  M04  = kara myötäpäivään
+  
+  M08  = coolant on
+  M09  = coolant off
+
+S 
+  
+  kierrosluvun ilmaisin esim. S3000 rajottimen kanssa
