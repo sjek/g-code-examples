@@ -1,0 +1,20 @@
+basic commands:
+
+G
+  
+  G00  =  työkalun valinta ja paluu vaihtopisteeseen
+  G01  =
+  
+  G71  =  rouhintakierroksen määrittely
+  
+    U  T  W  S  P
+  
+M
+  
+  M03  = kara myötäpäivään?
+  M04  = vastapäivään?
+  M07  = coolant on
+
+S 
+  
+  kierrosluvun ilmaisin esim. S3000 rajottimen kanssa
